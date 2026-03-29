@@ -5,25 +5,25 @@ class Aso < Formula
   desc "ASO CLI - App Store Optimization + App Store Connect"
   homepage "https://github.com/ASOManiac/aso-cli"
   license "MIT"
-  version "0.1.0"
+  version "0.1.1"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/ASOManiac/aso-cli/releases/download/0.1.0/aso_0.1.0_macOS_arm64"
-      sha256 "81fdd4cc62b1c93dbb0740535405cbee3a0ea899a3ca87e69ace4403c4714870"
+      url "https://github.com/ASOManiac/aso-cli/releases/download/0.1.1/aso_0.1.1_macOS_arm64"
+      sha256 "12bfbf303f73ef59a06ebc9db3460c0d7de77518e636bc9468992cd519bcbc58"
     else
-      url "https://github.com/ASOManiac/aso-cli/releases/download/0.1.0/aso_0.1.0_macOS_amd64"
-      sha256 "71628eb9f4aa40189ca181f58f7de3a655ea04090572ef0512ed03e745da4fce"
+      url "https://github.com/ASOManiac/aso-cli/releases/download/0.1.1/aso_0.1.1_macOS_amd64"
+      sha256 "c54593f121ad5d9d2f0624c9a77ab205782d486f00cdd6024fc39064f63e6518"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/ASOManiac/aso-cli/releases/download/0.1.0/aso_0.1.0_linux_arm64"
-      sha256 "0e04be5e244ea8e3a062001c3f2db766772bee56a94ca9a071a3c0468cb3a576"
+      url "https://github.com/ASOManiac/aso-cli/releases/download/0.1.1/aso_0.1.1_linux_arm64"
+      sha256 "06a0ff5ee15da69619b0504c10dc9b6e3ca1d1899b53e59d4626648648b39cbe"
     else
-      url "https://github.com/ASOManiac/aso-cli/releases/download/0.1.0/aso_0.1.0_linux_amd64"
-      sha256 "9fe511f988ac90655455402bd44b094b016cd365942f13a11feeb667f957388d"
+      url "https://github.com/ASOManiac/aso-cli/releases/download/0.1.1/aso_0.1.1_linux_amd64"
+      sha256 "2629bd846125466a76c3b9b8acbad103e5e59ccd6daf019a41cb9661e17ac1c2"
     end
   end
 
